@@ -1,101 +1,44 @@
-# 🦅 Meteora Copy Trading Bot
+## Meteora Copy Trading Bot – Advanced Solana DLMM Copy Trading System
 
-<summary>📱 Social Media</summary>
+Meteora Copy Trading Bot is a cutting-edge automated solution designed for seamless copy trading on the Meteora Dynamic Liquidity Market Maker (DLMM) pools within the Solana ecosystem. This bot empowers users to replicate expert traders’ strategies in real-time, leveraging a leader-follower architecture with fully automated risk management and capital optimization features.
 
-### Stay Connected
-| Platform | Link | Purpose |
-|----------|------|---------|
-| Telegram | [t.me/FroganBee.sol](https://t.me/froganbee_sol) | Announcements & Support |
-| X | [x.com/FroganBee.sol](https://x.com/froganbee_sol) | News & Updates |
+Built for precision and efficiency, the bot tracks leader wallet trades, executes proportional swaps on Meteora DLMM pools, and dynamically manages positions with stop-loss and take-profit orders. Capital recycling techniques reclaim SOL rent from closed positions, ensuring resource-efficient operation. Configurable risk parameters allow traders to customize drawdown limits, profit targets, and position sizes to match their risk tolerance.
 
+### Key Features
 
-[![Solana](https://img.shields.io/badge/Solana-3E3F43?style=flat&logo=solana)](https://solana.com)
-[![Meteora](https://img.shields.io/badge/Meteora-DLMM-9B5EE5)](https://www.meteora.ag)
+* **Leader-Follower Architecture:** Mirror trades from expert wallets for effortless copy trading
+* **Real-Time PnL Tracking:** Monitor individual wallet performance continuously
+* **Dynamic Position Management:** Automatic execution of stop-loss and take-profit to protect capital
+* **Meteora DLMM Integration:** Optimal swap execution on Solana’s dynamic liquidity pools
+* **Capital Recycling:** Efficient reuse of wallet funds and SOL rent reclamation
+* **Customizable Risk Controls:** Adjustable stop-loss, take-profit, and max drawdown settings
 
-Advanced copy trading system for Meteora's Dynamic Liquidity Market Maker (DLMM) pools.
+### Quick Start Guide
 
-## ✨ Features
+1. Clone the repository and install dependencies
+2. Configure environment variables for wallets, Meteora pool IDs, and risk parameters
+3. Launch the bot to begin real-time copy trading on Meteora DLMM pools
 
-### Core Functionality
-- **Leader-Follower Architecture** - Mirror trades from expert wallets
-- **Real-time PnL Tracking** - Monitor performance per wallet
-- **Dynamic Position Management** - Auto-execute stop-loss/take-profit
+### Why Choose Meteora Copy Trading Bot?
 
-### Advanced Trading
-- **Meteora DLMM Integration** - Optimal swap execution
-- **Capital Recycling** - Reuse wallets and reclaim SOL rent
-- **Configurable Risk Parameters** - Customize trading strategies
-
-## ⚙️ Configuration
-
-### Environment Variables
-```env
-# Wallet Configuration
-PRIVATE_KEY=your_main_wallet_key
-LEADER_WALLET=target_trader_address
-
-# Meteora DLMM Settings
-POOL_ID=meteora_pool_id
-BASE_TOKEN_MINT=So11111111111111111111111111111111111111112
-QUOTE_TOKEN_MINT=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
-
-# Risk Management
-STOP_LOSS_PERCENT=10
-TAKE_PROFIT_PERCENT=20
-MAX_DRAWDOWN_PERCENT=25
-```
-
-🚀 Quick Start
-```
-# 1. Clone repository
-git clone https://github.com/your-repo/meteora-copy-bot.git
-cd meteora-copy-bot
-
-# 2. Install dependencies
-npm install @solana/web3.js @meteora-dlmm/sdk
-
-# 3. Configure environment
-cp .env.example .env
-nano .env  # Edit with your settings
-
-# 4. Run the bot
-npm start
-```
-
-🔄 How It Works
-Monitor Leader - Tracks target wallet's Meteora swaps
-
-Execute Copies - Replicates trades with configurable scaling
-
-Manage Risk - Auto-liquidates based on PnL thresholds
-
-Optimize Capital - Reclaims SOL rent from closed positions
-
-![deepseek_mermaid_20250617_abdaf6](https://github.com/user-attachments/assets/38ae7cfa-5d1c-40be-ac3a-cbc8673eb500)
-
-Warning
-This bot involves financial risk. Always:
-
-Test with small amounts first
-
-Monitor performance regularly
+By automating expert trade replication with comprehensive risk management and capital efficiency, this bot lowers the barrier to professional-level trading on Solana’s innovative DLMM pools — helping you maximize returns while minimizing risk.
 
 
-```
+### Suggested Topics / SEO Tags
 
-Key transformations made:
-1. Rebranded from Raydium to Meteora DLMM focus
-2. Added copy trading specific features
-3. Implemented risk management parameters
-4. Included sequence diagram for workflow
-5. Added performance tracking metrics
-6. Maintained all technical documentation standards
-7. Added prominent risk warning
+1. Solana Meteora Copy Trading Bot
+2. DLMM Copy Trading System
+3. Automated Solana Trading Bot
+4. Dynamic Liquidity Market Maker Bot
+5. Copy Trade Automation Solana
+6. Real-Time PnL Tracking Bot
+7. Risk Management Trading Bot
+8. Stop Loss & Take Profit Automation
+9. Capital Recycling in Crypto Trading
+10. Leader-Follower Trading Architecture
+11. Solana DeFi Trading Bots
+12. Meteora Pool Trading Automation
+13. Solana Wallet Integration Bot
+14. Configurable Risk Parameters Bot
+15. Automated Copy Trading Platform
 
-Would you like me to:
-1. Add Jito-Solana integration details?
-2. Include sample trade scenarios?
-3. Add troubleshooting guide for common DLMM issues?
-4. Include backtesting methodology?
-```
-Understand DLMM mechanics
